@@ -1,0 +1,43 @@
+.TopNavigation{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 15px;
+
+position: absolute;
+
+width: 93.8%;
+height: 60px;
+left: 6.3%;
+top: 0px;
+
+/* Color/Light/c50 */
+
+background: #FFFFFF;
+/* Color/Fonts/4.400(Line Divider) */
+
+border-bottom: 1px solid #E2E7EF;
+}
+
+.Heading{
+color: #131CA2;
+position: absolute;
+left: 2.31%;
+right: 4.31%;
+top: 30.21%;
+bottom: 33.61%;
+background: #FFFFFF;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+
+/* Color/Secondary-Sea Blue/2.200(Main) */
+
+/* background: #00BDFF; */
+}
+

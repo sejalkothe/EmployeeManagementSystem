@@ -1,0 +1,209 @@
+/* *{
+    background-color: #f5f5f5;
+  } */
+
+.SurveyTable {
+  color: black !important;
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 16px 0px 17px;
+  gap: 16px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 25px;
+  width: 90.3%;
+  height: 79vh;
+
+  background: #ffffff;
+
+  /* border: 1px solid #e2e7ef; */
+  border-radius: 4px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+  box-shadow: none;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+}
+
+.searchBar {
+  border: 2px solid #e8e9ee;
+  margin-right: 15px;
+  margin-top: -3%;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.plusButton {
+    background-color: #328DF6;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    height: 37.5px;
+    width: 85px;
+    margin-top: -5px;
+    align-self: flex-end;
+    margin-right: 50px;
+    margin-left: auto;
+  }
+  
+.filterButton{
+        border: 1.4px solid #8591A2;
+        background-color: #ffffff;
+        border-radius: 3px;
+        border-width: 1px;
+        width: 35px;
+        height: 34px;
+        display: 'flex';
+        align-self: flex-end;
+        margin-right: 20px;
+        margin-left: -38px;
+        margin-bottom: 2px;
+      }
+
+      .idCardButton{
+        border: 1.4px solid #8591A2;
+        background-color: #ffffff;
+        border-radius: 3px;
+        border-width: 1px;
+        width: 35px;
+        height: 34px;
+        display: 'flex';
+        align-self: flex-end;
+        margin-right: 3px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+      }      
+      .tableButton{
+        background-color: #328DF6;          
+        border: 1.4px solid #8591A2;
+        border-radius: 3px;
+        border-width: 1px;
+        width: 35px;
+        height: 34px;
+        display: 'flex';
+        align-self: flex-end;
+        margin-right: 40px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+      }   
+
+      .vertical-line {
+        border-left: 1px solid #8591A2;
+        margin-top: 12px;
+        margin-right: 7px;
+        height: 25px;
+      }
+      
+.Heading1 {
+  flex: 1 1 auto;
+  align-self: flex-start;
+  
+  margin-right: 765px;
+  background: none;
+  
+  color: black;
+  /* top: 4px; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.search {
+  background-color: #f2f4f8;
+  border: none;
+  position: relative;
+  left: -150px;
+  top: -68px;
+  width: 300px;
+  height: 26px;
+}
+
+.fa-search {
+  position: relative;
+  top: -19%;
+  left: -31%;
+  background: none;
+  color: gray;
+  transform: translateY(-50%);
+}
+.totalCount {
+  background-color: #dbe4f0;
+  padding: 6px 15px;
+  gap: 8px;
+
+  width: 60px;
+  height: 42px;
+  border-radius: 4px;
+  color: #2c4b72;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.create {
+  color: #131ca2;
+  border: none;
+  position: relative;
+  top: -28%;
+  left: -8%;
+  width: 29px;
+  height: 29px;
+  border-radius: 2px;
+  /* background-color: black; */
+}
+
+.create:hover {
+  background-color: black;
+}
+
+.plus {
+  font-size: 15px;
+  position: relative;
+  top: 5%;
+  left: 8%;
+  background: none;
+  border-radius: 5px;
+}
+
+.filter {
+  color: #131ca2;
+  border: none;
+  position: relative;
+  top: -37%;
+  left: -5%;
+  width: 29px;
+  height: 29px;
+  border-radius: 2px;
+}
+
+.ficon {
+  font-size: 13px;
+  padding-top: 7px;
+  padding-left: 5px;
+  position: relative;
+  top: 5%;
+  left: 8%;
+  background: none;
+  border-radius: 5px;
+}
+
+.MuiPagination-text {
+  color: red;
+}
